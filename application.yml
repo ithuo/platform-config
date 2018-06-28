@@ -1,19 +1,15 @@
 ﻿spring:
-    profiles:
-        active:
-        -dev
-        
+  profiles:
+    active:
+    - dev
 ---
 spring:
-    profiles: dev
-    application:
-        name: platform-config-dev
-
+  profiles: dev     #开发环境
+  application: 
+    name: platform-config-dev
 ---
 spring:
-    profiles: test
-    application:
-        name:platform-config-test
-        
-        
-        
+  profiles: test   #测试环境
+  application: 
+    name: platform-config-test
+#  请保存为UTF-8格式
