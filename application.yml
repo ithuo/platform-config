@@ -1,0 +1,19 @@
+﻿spring:
+    profiles:
+        active:
+        -dev
+        
+---
+spring:
+    profiles: dev
+    application:
+        name: platform-config-dev
+
+---
+spring:
+    profiles: test
+    application:
+        name:platform-config-test
+        
+        
+        
